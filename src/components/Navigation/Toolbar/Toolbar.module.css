@@ -1,0 +1,36 @@
+.Toolbar {
+  display: flex;
+  justify-content: normal;
+  background: #273c75;
+  height: 43px;
+}
+
+.logo {
+  padding: 5px;
+}
+
+.Toolbar .logo p {
+  color: #487eb0;
+  padding: 1px 22px;
+  font-size: 21px;
+}
+
+@media (max-width: 600px) {
+  .Toolbar {
+    height: 50px;
+  }
+
+  .Toolbar .logo p{
+    padding: 7px 8px;
+    font-size: 17px;
+  }
+
+}
+
+@media (min-width:600px) and (max-width: 1000px){
+
+  .Toolbar .logo p {
+    padding: 1px 22px;
+  }
+
+}

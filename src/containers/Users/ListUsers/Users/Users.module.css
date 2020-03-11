@@ -1,0 +1,54 @@
+.Users{
+  margin: 13px 1px;
+  flex-basis: 350px;
+  border: 1px solid #eeeeee;
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 5px 10px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.Users h1{
+  font-size: 19px;
+  margin-top: 27px;
+  color: #273c75;
+}
+
+.Users2 img {
+   
+  width: 100px;
+  border-radius: 100px;
+  margin-bottom: 19px;
+  margin-top: 13px;
+  
+}
+
+.Users3{
+  margin-bottom: 26px;
+}
+.Users3 p {
+  text-align: inherit;
+    font-weight: bold;
+    font-size: 12px;
+    margin-bottom: 2px;
+}
+
+.Users:hover {
+    background-color: #b9b9b9;
+    color: white;
+}
+  
+  @media (max-width: 600px) {
+    .Users{
+      margin: 5px 0px;
+      font-size: 10px;
+    }
+
+    .Users2 img {
+   
+      width: 100px;
+      border-radius: 100px;
+      
+    }
+  }

@@ -1,0 +1,60 @@
+
+.MainPage .MainPage1{
+  display:flex;
+  margin-top: 10%;
+}
+.MainPage .MainPage1 .Main1{
+  width: 500px;
+
+}
+
+.MainPage .MainPage1 .Main2{
+  width: 500px;
+  
+  
+  
+}
+
+
+
+.MainPage h3 {
+ 
+    font-size: 36px;
+  
+}
+
+   
+
+.MainPage h2 {
+  margin-top: 100px;
+  margin-bottom: 44px;
+  text-align: center;
+}
+
+.MainPage p {
+  text-align: inherit;
+}
+
+@media (max-width: 900px) {
+
+
+  .MainPage h3 {
+    font-size: 26px;
+}
+}
+
+@media (max-width: 600px) {
+
+ 
+
+  .MainPage h3 {
+    font-size: 26px;
+
+    
+}
+
+.MainPage .MainPage1 .Main1{
+  width: unset;
+
+}
+}

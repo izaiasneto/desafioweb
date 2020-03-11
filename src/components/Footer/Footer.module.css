@@ -1,0 +1,35 @@
+.Footer {
+    font-size: 12px;
+    display: block;
+    bottom: 0;
+    left: 0;
+    height: 28px;
+    position: fixed;
+    width: 100%;
+    background: #353b48;
+  }
+  
+  .Footer p{
+    color: #6f6f6f;;
+    font-size: 12px;
+    font-weight: lighter;
+    text-align: center;
+    width: 100%;
+    margin-top: 6px;
+  
+  }
+  
+  
+
+  
+  @media (max-width: 600px) {
+   
+    .Footer {
+      font-size: 12px;
+      display: block;
+    }
+  
+  
+   
+  }
+  

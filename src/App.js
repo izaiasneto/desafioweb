@@ -1,26 +1,30 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+
+import React from "react";
+import Layout from "./hoc/Layout/Layout.js";
+import MainPage from "./components/MainPage/MainPage.js";
+import RegisterPage from "./components/RegisterPage/RegisterPage"
+import {Route, Switch} from "react-router-dom";
+
+
+
+/* Componente principal App faz a chamada do componente de ordem superior Layout
+para definir as limitações da página, o cabeçalho e o rodapé. App também
+faz a chamada do componente Switch e dos componentes Route para definir que
+componente deve ser apresentado de acordo com a navegação do usuário */
+
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+  return(
+    <Layout>
+      <Switch>
+         <Route path="/" exact component={MainPage}/>
+         <Route path="/register" exact component={RegisterPage}/>
+         
+      </Switch>
+    </Layout> 
   );
 }
 
-export default App;
+
+  export default App;
+

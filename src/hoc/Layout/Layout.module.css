@@ -1,0 +1,29 @@
+.Layout {
+    overflow: hidden;
+    
+   
+}
+
+.Layout .h1{
+  font-size: 10px;
+  
+ 
+}
+
+.Main{
+    margin: 4% 24%;
+    width: 48%;
+  }
+
+ 
+  @media (max-width: 600px) {
+    .Layout {
+      font-size: 10px;
+    }
+
+    .Main{
+      margin: 12% 8%;
+      width: 85%;
+    }
+    
+  }

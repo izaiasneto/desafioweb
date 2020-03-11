@@ -1,0 +1,24 @@
+.SearchTool {
+  margin-top: 10px;
+  margin-bottom: 36px;
+  width: 100%;
+  text-align: center;
+  border-radius: 3px;
+  background-color: #e6e6e6;
+  padding: 17px;
+  box-sizing: border-box;
+  }
+  
+  .SearchTool h1 {
+    text-align: center;
+    font-size: 20px;
+    text-transform: uppercase;
+    color: #273c75;
+  }
+
+  .SearchTool h4{
+    font-size: 16px;
+    margin-top: 27px;
+    color: #0097e6;
+  }
+  
