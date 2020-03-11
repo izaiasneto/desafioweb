@@ -6,7 +6,7 @@ Aplicação web utilizando React, feito para o desafio de programação do SISEN
 - Bootstrap
 - Axios
 
-### Tela inicial do app
+### Tela inicial da aplicação
 
 ![Tela-inicial](https://i.imgur.com/prFyRDg.png)
 
@@ -15,7 +15,7 @@ Aplicação web utilizando React, feito para o desafio de programação do SISEN
 ![](https://i.imgur.com/S9dNFSF.png)
 
 
-### Adicionando user
+### Cadastrar usuário
 
 ![](https://i.imgur.com/40ZHhmA.png)
 
