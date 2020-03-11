@@ -2,9 +2,6 @@
 
 Aplicação web utilizando React, feito para o desafio de programação do SISENEX.
 
-### Módulos usados
-- Bootstrap
-- Axios
 
 ### Tela inicial da aplicação
 
